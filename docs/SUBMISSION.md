@@ -1,6 +1,50 @@
 # Submission form — copy-paste answers
 
-Fill this in on the Flip the Switch submission form. Replace `<REPO_URL>` and `<VIDEO_URL>` once the repo and the unlisted video exist.
+Fill this in on the Flip the Switch submission form. The video is at [`docs/bidroom-demo.mp4`](bidroom-demo.mp4); upload it to YouTube as **Unlisted** (or Loom) and paste the URL below. The repo is `https://github.com/shreepalgoyal/bidroom`.
+
+## Upload checklist
+
+1. Upload [`docs/bidroom-demo.mp4`](bidroom-demo.mp4) to YouTube as **Unlisted**. Title: `BidRoom — evidence-backed RFP responses with a human sign-off | Flip the Switch 2026`.
+2. Use the description and chapters below. Copy the video URL into this file and the README.
+3. Push the repo, then open the public URL in a private window to confirm it is visible without signing in.
+4. Register / submit on the [Flip the Switch page](https://www.wemakedevs.org/hackathons/switch). Track: **Best Business Workflow**.
+5. Optional: add the `#HowISwitch` post, blog post, or Wispr card in Track Details.
+
+## Video metadata
+
+**Title**
+
+```
+BidRoom — evidence-backed RFP responses with a human sign-off | Flip the Switch 2026
+```
+
+**Description**
+
+```
+BidRoom is a five-agent RFP workflow built on Switch, OpenCode and Mattermost for Flip the Switch 2026 (Track 01: Best Business Workflow).
+
+Five agents — scout, matcher, evidence desk, writer and red team — share a Mattermost room with a human bid lead. Every compliance claim must cite an approved evidence record. Agents can propose evidence; only the bid lead can approve it or sign the submission. Sign-off pins the approved library with a SHA-256 digest.
+
+On the bundled 77-requirement Northwind City Council RFP, the room moves from 50 compliant / 19 gaps (68.8%, score 55) to 57 compliant / 12 gaps (77.9%, score 70, zero blockers) after six records are reviewed and approved. Eight mandatory gaps remain visible with owners.
+
+Repo: https://github.com/shreepalgoyal/bidroom
+Template: switch/bidroom.template.yaml
+Stack: Switch 0.40.1, OpenCode, Mattermost, Python
+
+Chapters:
+0:00 The problem
+0:07 The rule
+0:19 The bid room
+0:31 Scout
+0:47 Matcher
+0:58 Evidence desk
+1:05 The human gate
+1:26 The writer
+1:36 Red team
+1:43 Sign-off
+1:55 Report
+2:00 End
+```
 
 ---
 
@@ -33,13 +77,13 @@ The rule is enforced in code: every compliance claim must cite an approved evide
 **GitHub Repository or contribution**
 
 ```
-<REPO_URL>
+https://github.com/shreepalgoyal/bidroom
 ```
 
 **Demo video**
 
 ```
-<VIDEO_URL>
+<PASTE_YOUTUBE_OR_LOOM_URL>
 ```
 
 **Live demo or deployment**

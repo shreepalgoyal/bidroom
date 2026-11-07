@@ -11,6 +11,7 @@ BidRoom is a working RFP-response pipeline where five Switch agents share a Matt
 - A real Switch group: five agents (`scout`, `matcher`, `evidence`, `writer`, `redteam`) created from one template, bridged into two Mattermost rooms.
 - Real agent turns in the room: intake (77 requirements), matrix (50/6/2/19, 68.8%), evidence queue, draft, and red-team review.
 - A real workspace on disk: 54 Markdown evidence records, 77 requirements, `matrix.json`, `draft.md`, `review.json`, `report.html`, `signoff.json`.
+- A signed sample report at [`docs/sample-report.html`](sample-report.html); `bidroom demo --full` reproduces the same 70/100 result in one command.
 - A real CLI and MCP server, with **19 passing tests**.
 
 ## Track 01 — Best Business Workflow

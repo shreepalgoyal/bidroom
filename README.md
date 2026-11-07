@@ -241,7 +241,7 @@ docs/                      architecture, demo script, judging notes
 # 19 passed
 ```
 
-The tests cover ingestion counts, qualifier penalties, approval/import behaviour, the digest and stale signature, claim splitting, blocker detection, sign-off refusal, and the CLI exit codes.
+The tests cover ingestion counts, qualifier penalties, approval/import behaviour, the digest and stale signature, claim splitting, blocker detection, sign-off refusal, and the CLI exit codes. One end-to-end test runs `bidroom demo --full` and asserts the signed result: **57 compliant · 6 partial · 2 needs-approval · 12 gap · 77.9% · 52 approved · 70/100 · 0 blockers**.
 
 ## Design decisions
 
