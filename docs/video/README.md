@@ -34,7 +34,7 @@ The slides are already rendered; no Pillow or macOS fonts are needed to rebuild 
 
 ## Upload
 
-Upload the MP4 to YouTube as **Unlisted** (or Loom), then put the URL in the README and the submission form. The video must stay under 3:00.
+Published: **https://youtu.be/0KTzrEUJdoU** (2:04, public). Upload the MP4 to YouTube as **Unlisted** (or Loom), then put the URL in the README and the submission form. The video must stay under 3:00.
 
 ### Title
 

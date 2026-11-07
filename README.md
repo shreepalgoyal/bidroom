@@ -8,7 +8,7 @@ Built for **[Flip the Switch](https://www.wemakedevs.org/hackathons/switch) — 
 
 ![BidRoom room](docs/screenshots/room.png)
 
-**Watch:** [2:04 demo](docs/bidroom-demo.mp4) · **Open:** [signed sample report](docs/sample-report.html) · **Inspect:** [Switch template](switch/bidroom.template.yaml)
+**Watch:** [2:04 demo on YouTube](https://youtu.be/0KTzrEUJdoU) · **Open:** [signed sample report](docs/sample-report.html) · **Inspect:** [Switch template](switch/bidroom.template.yaml)
 
 ---
 
@@ -264,12 +264,12 @@ The hackathon judges four things. Here is where each one lives:
 | **Use of Switch** | [`switch/bidroom.template.yaml`](switch/bidroom.template.yaml) creates five agents, two linked rooms, four roles, three room documents and a kickoff. The agents' only shared state is the checkout Switch gives them. Without Switch there is no room, no relay, no agent identity and no human gate. |
 | **Technical execution** | `pip install -e ".[dev]"`, then `bidroom demo --out demo-output --force --full`. 19 tests. Deterministic engine; no API key needed for the example. See [`docs/SETUP.md`](docs/SETUP.md). |
 | **Creativity and impact** | The evidence boundary, not the prose. Gaps are first-class; approval is a named human act; sign-off hashes the approved library and goes stale when evidence moves. See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md). |
-| **Presentation** | The [2:04 demo](docs/bidroom-demo.mp4) shows the real room, the real matrix and the real sign-off. The [signed report](docs/sample-report.html) is the artifact a bid review would use. |
+| **Presentation** | The [2:04 demo](https://youtu.be/0KTzrEUJdoU) shows the real room, the real matrix and the real sign-off. The [signed report](docs/sample-report.html) is the artifact a bid review would use. |
 
 ## Submission
 
 - **Track:** Best Business Workflow (Track 01)
-- **Demo video:** [docs/bidroom-demo.mp4](docs/bidroom-demo.mp4) (2:04, 1080p) — hosted link to be added
+- **Demo video:** [Watch on YouTube](https://youtu.be/0KTzrEUJdoU) (2:04, 1080p) · [local copy](docs/bidroom-demo.mp4)
 - **Repository:** [github.com/shreepalgoyal/bidroom](https://github.com/shreepalgoyal/bidroom)
 - **Signed report:** [docs/sample-report.html](docs/sample-report.html)
 - **Live demo:** not applicable — runs locally with Switch + OpenCode
