@@ -8,7 +8,7 @@ Built for **[Flip the Switch](https://www.wemakedevs.org/hackathons/switch) — 
 
 ![BidRoom room](docs/screenshots/room.png)
 
-**Watch:** [2:04 demo on YouTube](https://youtu.be/0KTzrEUJdoU) · **Open:** [signed sample report](docs/sample-report.html) · **Inspect:** [Switch template](switch/bidroom.template.yaml)
+**Watch:** [2:04 demo on YouTube](https://youtu.be/0KTzrEUJdoU) · **Read:** [build write-up](https://dev.to/shreepalgoyal/how-i-built-bidroom-five-ai-agents-one-bid-and-a-human-who-has-to-sign-3io9) · **Open:** [signed sample report](docs/sample-report.html) · **Inspect:** [Switch template](switch/bidroom.template.yaml)
 
 ---
 
@@ -272,8 +272,8 @@ The hackathon judges four things. Here is where each one lives:
 - **Demo video:** [Watch on YouTube](https://youtu.be/0KTzrEUJdoU) (2:04, 1080p) · [local copy](docs/bidroom-demo.mp4)
 - **Repository:** [github.com/shreepalgoyal/bidroom](https://github.com/shreepalgoyal/bidroom)
 - **Signed report:** [docs/sample-report.html](docs/sample-report.html)
-- **Live demo:** not applicable — runs locally with Switch + OpenCode
-- **Blog post:** optional, not submitted
+- **Live demo:** not applicable — BidRoom runs locally with Switch + OpenCode; `bidroom demo --full` is the reproducible demo
+- **Blog post:** [How I built BidRoom: five AI agents, one bid, and a human who has to sign](https://dev.to/shreepalgoyal/how-i-built-bidroom-five-ai-agents-one-bid-and-a-human-who-has-to-sign-3io9)
 
 ### How I used Switch
 

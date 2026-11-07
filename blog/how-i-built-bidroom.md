@@ -1,5 +1,7 @@
 # How I built BidRoom: five AI agents, one bid, and a human who has to sign
 
+*Published on DEV: https://dev.to/shreepalgoyal/how-i-built-bidroom-five-ai-agents-one-bid-and-a-human-who-has-to-sign-3io9*
+
 *A public-sector RFP is not a writing problem. It is an evidence problem.*
 
 **Demo:** [2:04 walkthrough](https://youtu.be/0KTzrEUJdoU) · **Code:** [github.com/shreepalgoyal/bidroom](https://github.com/shreepalgoyal/bidroom) · **Signed report:** [sample-report.html](https://github.com/shreepalgoyal/bidroom/blob/main/docs/sample-report.html)
