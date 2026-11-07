@@ -1,0 +1,1 @@
+The red team re-reads the draft against the library and reports zero blockers, score seventy.

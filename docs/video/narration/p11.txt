@@ -1,0 +1,1 @@
+I sign, and the signature pins the approved evidence with a SHA-256 digest. If anyone edits an approved record afterwards, the report marks the signature stale.

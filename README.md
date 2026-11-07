@@ -76,7 +76,7 @@ Agents never run steps 3 or 6. The runbook in the room says so, and the CLI refu
 
 ## What a run looks like
 
-The bundled example is a realistic UK local-government RFP: **Northwind City Council, Resident Services Portal — Digital Access Platform (`NCC-2026-114`, due 20 Nov 2026)**.
+The bundled example is a realistic, synthetic UK local-government RFP: **Northwind City Council, Resident Services Portal — Digital Access Platform (`NCC-2026-114`, due 20 Nov 2026)**.
 
 **Baseline** (46 approved records, 2 unapproved):
 
@@ -97,6 +97,8 @@ Coverage 77.9% · 8 mandatory gaps · score 70/100 · 0 blockers
 The six records are real, reviewable Markdown files in [`examples/northwind/evidence-extra/`](examples/northwind/evidence-extra). They close named gaps: the top-20 transactions journey, the single digital front door, the IDOX Uniform integration, the 60k-user load test, the assisted-digital route, and the open-data extract. They are imported **unapproved** — the human approval step is the point.
 
 [**Open the signed report →**](docs/sample-report.html)
+
+<img src="docs/screenshots/report.png" alt="The signed 70/100 readiness report with the human sign-off panel" width="100%">
 
 The remaining gaps are the honest ones: ISO/IEC 27001 certification, UK GDPR/DPA/PSBAR evidence, IPv6, digital-skills workshops, gainshare, and the submission/commercial items the council has not answered yet. The final report shows them, the owner, and what would close each one.
 
@@ -231,7 +233,9 @@ examples/northwind/
   evidence/                48 base records
   evidence-extra/          6 gap-closing proposals
 tests/                     19 pytest tests
-docs/                      architecture, demo script, judging notes
+docs/                      architecture and setup notes
+docs/video/                slides, narration text and the video build script
+docs/sample-report.html    the signed 70/100 report
 ```
 
 ## Tests

@@ -1,0 +1,1 @@
+This is the bid room. Five OpenCode agents and me, in one Mattermost channel, created from a single Switch template. Scout, matcher, evidence desk, writer and red team. All five share the same checkout.

@@ -10,3 +10,8 @@ demo-output/
 .DS_Store
 *.log
 .env
+
+# Video build inputs and intermediates
+docs/video/audio/*.wav
+docs/video/audio/*.aiff
+docs/video/build/

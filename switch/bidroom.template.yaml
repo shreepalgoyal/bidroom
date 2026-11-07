@@ -12,7 +12,9 @@
 # Usage: Switch Console -> Templates -> Create from template. Set `directory`
 # to the checkout all five agents should share (default: one folder per
 # machine), and `repo_url` to your fork. The agents run the `bidroom` CLI in
-# `.bidroom/` inside that checkout.
+# `.bidroom/` inside that checkout. Install the project once before the first
+# turn: `python3 -m venv .venv && .venv/bin/pip install -e ".[dev]"`.
+# Full setup: docs/SETUP.md.
 
 version: 1
 
@@ -80,6 +82,9 @@ agents:
       --force`; it reseeds the workspace and destroys the room's work.
 
       Do this:
+      0. Preflight: if `.venv/bin/bidroom` is missing, stop and post:
+         "Install the project first: `python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'`."
+         Do not guess a workaround.
       1. If `.bidroom/rfp.json` is missing, initialize the workspace once:
          `.venv/bin/bidroom init --rfp examples/northwind/rfp.md --evidence examples/northwind/evidence`
       2. Ingest the RFP:
